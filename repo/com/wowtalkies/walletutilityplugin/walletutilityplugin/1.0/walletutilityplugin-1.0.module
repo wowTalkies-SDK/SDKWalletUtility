@@ -1,0 +1,303 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wowtalkies.walletutilityplugin",
+    "module": "walletutilityplugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-debug.aar",
+          "url": "walletutilityplugin-1.0-debug.aar",
+          "size": 5570,
+          "sha512": "199770d99925f68ac015aae408f6c8c0dafc08025bba2e12ff499e21f9e756b18db6981c965b72921ed56949597fc754cc9796e0c1e96cbf233a0ff7c99727e1",
+          "sha256": "f8d06154ee4b497e27b9dc55029751bd44f8bbd6089d0fbb66462985b7d2f85f",
+          "sha1": "414e958a3e62498fe85590efb2d58a5faa327bff",
+          "md5": "879c0ed520025e7b7432acfbbbeb6c06"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-debug.aar",
+          "url": "walletutilityplugin-1.0-debug.aar",
+          "size": 5570,
+          "sha512": "199770d99925f68ac015aae408f6c8c0dafc08025bba2e12ff499e21f9e756b18db6981c965b72921ed56949597fc754cc9796e0c1e96cbf233a0ff7c99727e1",
+          "sha256": "f8d06154ee4b497e27b9dc55029751bd44f8bbd6089d0fbb66462985b7d2f85f",
+          "sha1": "414e958a3e62498fe85590efb2d58a5faa327bff",
+          "md5": "879c0ed520025e7b7432acfbbbeb6c06"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-release.aar",
+          "url": "walletutilityplugin-1.0-release.aar",
+          "size": 5417,
+          "sha512": "6692eb3ef1a035d5dc83b17556502eda10691407597c1b68bebf4eec28336b3c11582b14775e122e96c39714c9971e13fcbf09a671c10504036af8d2c1b5c627",
+          "sha256": "723326659910473a43561c4bcdbdfcee9b3bd33faa1d8cb0aedcff2ad8e385de",
+          "sha1": "a2144ce832929b81cc130b44edfcb783c4a92a08",
+          "md5": "1649b2cf98b87e3dab76ff7014562b0b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-release.aar",
+          "url": "walletutilityplugin-1.0-release.aar",
+          "size": 5417,
+          "sha512": "6692eb3ef1a035d5dc83b17556502eda10691407597c1b68bebf4eec28336b3c11582b14775e122e96c39714c9971e13fcbf09a671c10504036af8d2c1b5c627",
+          "sha256": "723326659910473a43561c4bcdbdfcee9b3bd33faa1d8cb0aedcff2ad8e385de",
+          "sha1": "a2144ce832929b81cc130b44edfcb783c4a92a08",
+          "md5": "1649b2cf98b87e3dab76ff7014562b0b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-profile.aar",
+          "url": "walletutilityplugin-1.0-profile.aar",
+          "size": 5419,
+          "sha512": "6b6d698f7295a59d41e0e739748e73b6b7c0949aa4c866acd66a82ccf2397e7c5e9fc4d2a481a90349d46eb3f8cca95e740f35f8ad24c9009490ca50633b4727",
+          "sha256": "a62160d5db7abf41d965a8d27c92302842b0ec670f861f921c393f7d8681e1f4",
+          "sha1": "ff4555056080aaee20732ae2811802c7f65923f7",
+          "md5": "52d86e13f90ee2bd82b2db88d13382cf"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin-1.0-profile.aar",
+          "url": "walletutilityplugin-1.0-profile.aar",
+          "size": 5419,
+          "sha512": "6b6d698f7295a59d41e0e739748e73b6b7c0949aa4c866acd66a82ccf2397e7c5e9fc4d2a481a90349d46eb3f8cca95e740f35f8ad24c9009490ca50633b4727",
+          "sha256": "a62160d5db7abf41d965a8d27c92302842b0ec670f861f921c393f7d8681e1f4",
+          "sha1": "ff4555056080aaee20732ae2811802c7f65923f7",
+          "md5": "52d86e13f90ee2bd82b2db88d13382cf"
+        }
+      ]
+    }
+  ]
+}
