@@ -33,8 +33,20 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.jhomlala.better_player.better_player</groupId>
+      <artifactId>better_player</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>io.flutter.plugins.firebase.auth</groupId>
       <artifactId>firebase_auth</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.firebase.core</groupId>
+      <artifactId>firebase_core</artifactId>
       <version>1.0</version>
       <scope>runtime</scope>
     </dependency>
@@ -45,8 +57,32 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>com.github.droibit.plugins.flutter.customtabs</groupId>
+      <artifactId>flutter_custom_tabs</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.example.fluttershare</groupId>
+      <artifactId>flutter_share</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>com.example.FlutterToast</groupId>
       <artifactId>fluttertoast</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.fluttercommunity.plus.share</groupId>
+      <artifactId>share_plus</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.it_nomads.fluttersecurestorage</groupId>
+      <artifactId>flutter_secure_storage</artifactId>
       <version>1.0</version>
       <scope>runtime</scope>
     </dependency>

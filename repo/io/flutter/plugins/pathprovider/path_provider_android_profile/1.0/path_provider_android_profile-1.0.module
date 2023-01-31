@@ -35,11 +35,11 @@
         {
           "name": "path_provider_android_profile-1.0.aar",
           "url": "path_provider_android_profile-1.0.aar",
-          "size": 12405,
-          "sha512": "a04cdc4b4c007aafb7203c58b37c46b1f8aee7836c0dc1daf873efb68e263020ad5b42cc9d1633da575c78bb6c883070f2d74bbdfcadf619402a07e8f2fcbcab",
-          "sha256": "c754bd30a281dd2e7a680e83ec39f137acc7fdac31cb30ffeb88e9a04021bc73",
-          "sha1": "60282b8749ed70f611731196562aede36cb097cb",
-          "md5": "48ec5291f0de03593b437517e2afad03"
+          "size": 12401,
+          "sha512": "f1e1a054af039e9e38cbc84603ab1de52dfe20efc307a5dd47812897bdde7abef894b6a4371873c2fd453c997f184f77ab5128d8ec477594fe1f23313ba22d78",
+          "sha256": "ef1fce8ae3d814c225aa7ffe15dcd6fe1c2493d76f593ac696049988774fcdc7",
+          "sha1": "ead7027efaf5278306d58b8151c3e68c49b7fdf5",
+          "md5": "1c2c2825d010913a41cb195f4fcf9653"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "path_provider_android_profile-1.0.aar",
           "url": "path_provider_android_profile-1.0.aar",
-          "size": 12405,
-          "sha512": "a04cdc4b4c007aafb7203c58b37c46b1f8aee7836c0dc1daf873efb68e263020ad5b42cc9d1633da575c78bb6c883070f2d74bbdfcadf619402a07e8f2fcbcab",
-          "sha256": "c754bd30a281dd2e7a680e83ec39f137acc7fdac31cb30ffeb88e9a04021bc73",
-          "sha1": "60282b8749ed70f611731196562aede36cb097cb",
-          "md5": "48ec5291f0de03593b437517e2afad03"
+          "size": 12401,
+          "sha512": "f1e1a054af039e9e38cbc84603ab1de52dfe20efc307a5dd47812897bdde7abef894b6a4371873c2fd453c997f184f77ab5128d8ec477594fe1f23313ba22d78",
+          "sha256": "ef1fce8ae3d814c225aa7ffe15dcd6fe1c2493d76f593ac696049988774fcdc7",
+          "sha1": "ead7027efaf5278306d58b8151c3e68c49b7fdf5",
+          "md5": "1c2c2825d010913a41cb195f4fcf9653"
         }
       ]
     }

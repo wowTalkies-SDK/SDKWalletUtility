@@ -36,11 +36,11 @@
         {
           "name": "camera_android-1.0-debug.aar",
           "url": "camera_android-1.0-debug.aar",
-          "size": 107806,
-          "sha512": "d4f096b79082db7e39ae6836ebf7a9e6eede9b2b935ecbe456d065e94b9c817754abd932652cdc3afecfd9ae55a7bf7b91739317b5e8b49add9a35bcd918a6d5",
-          "sha256": "59a96cdd9a6e84d4b663baf0e2a6869f4344b861085c1ca55c286c81ddb659f8",
-          "sha1": "031a93082c4b33022ba2a2ae31f4e3ec20a55f08",
-          "md5": "f5c04f157480d812339c143819841f15"
+          "size": 107803,
+          "sha512": "b47f42909db62dfecbf4a5aef84080dbed4536184acac19e036afb7d48b12dee5e652afcbe8b7c9b4e8d8143360e438a3b528284cda3f5b960dbb4697b635ba0",
+          "sha256": "4845f2c10fa2b2f1cd3c39bb2e81b132645417c23d3a01af1c3bce035116db19",
+          "sha1": "84d2e756205fc6f7f98f40e751a2cd8b7bab553d",
+          "md5": "6beb9a5b4e361ead6bce5d85e490307e"
         }
       ]
     },
@@ -80,11 +80,11 @@
         {
           "name": "camera_android-1.0-debug.aar",
           "url": "camera_android-1.0-debug.aar",
-          "size": 107806,
-          "sha512": "d4f096b79082db7e39ae6836ebf7a9e6eede9b2b935ecbe456d065e94b9c817754abd932652cdc3afecfd9ae55a7bf7b91739317b5e8b49add9a35bcd918a6d5",
-          "sha256": "59a96cdd9a6e84d4b663baf0e2a6869f4344b861085c1ca55c286c81ddb659f8",
-          "sha1": "031a93082c4b33022ba2a2ae31f4e3ec20a55f08",
-          "md5": "f5c04f157480d812339c143819841f15"
+          "size": 107803,
+          "sha512": "b47f42909db62dfecbf4a5aef84080dbed4536184acac19e036afb7d48b12dee5e652afcbe8b7c9b4e8d8143360e438a3b528284cda3f5b960dbb4697b635ba0",
+          "sha256": "4845f2c10fa2b2f1cd3c39bb2e81b132645417c23d3a01af1c3bce035116db19",
+          "sha1": "84d2e756205fc6f7f98f40e751a2cd8b7bab553d",
+          "md5": "6beb9a5b4e361ead6bce5d85e490307e"
         }
       ]
     },
@@ -110,11 +110,11 @@
         {
           "name": "camera_android-1.0-release.aar",
           "url": "camera_android-1.0-release.aar",
-          "size": 102179,
-          "sha512": "6ff89a0e073d4a6db03b2a5e483808bee23d855539b206a4bb67637dcf88a3d4498131ab8257e030d45facc43c25c6d8db2ca758be7d9204f7caa5190387aa0a",
-          "sha256": "23fc971c6ae797453db2441dcc287e5a3fd570df4a4e6f44f940cb7b3fbb342a",
-          "sha1": "4ad49b931bbea904d1c69befdf88d8a6c6f65bd4",
-          "md5": "fa9b4c98fbbd7efe0751bb7543f138e0"
+          "size": 102176,
+          "sha512": "ea6d9944ed89bd6a5e6ac89642aacf7e3ed6489d9338139a1944858e11e5626c2e8f02fff3dfe4e4fc3a57fda5c15987d47a46549cc49aad29cf352b464fde2a",
+          "sha256": "8ed0bd9f8e79eacbde2ddfd21d519034f9575fba2f584bd5e109c7cceb438d50",
+          "sha1": "2beb102180d1fc9a021caa8520c4feb3f2957b59",
+          "md5": "4a63a0e0268aa39b1d3bf63972544612"
         }
       ]
     },
@@ -154,11 +154,11 @@
         {
           "name": "camera_android-1.0-release.aar",
           "url": "camera_android-1.0-release.aar",
-          "size": 102179,
-          "sha512": "6ff89a0e073d4a6db03b2a5e483808bee23d855539b206a4bb67637dcf88a3d4498131ab8257e030d45facc43c25c6d8db2ca758be7d9204f7caa5190387aa0a",
-          "sha256": "23fc971c6ae797453db2441dcc287e5a3fd570df4a4e6f44f940cb7b3fbb342a",
-          "sha1": "4ad49b931bbea904d1c69befdf88d8a6c6f65bd4",
-          "md5": "fa9b4c98fbbd7efe0751bb7543f138e0"
+          "size": 102176,
+          "sha512": "ea6d9944ed89bd6a5e6ac89642aacf7e3ed6489d9338139a1944858e11e5626c2e8f02fff3dfe4e4fc3a57fda5c15987d47a46549cc49aad29cf352b464fde2a",
+          "sha256": "8ed0bd9f8e79eacbde2ddfd21d519034f9575fba2f584bd5e109c7cceb438d50",
+          "sha1": "2beb102180d1fc9a021caa8520c4feb3f2957b59",
+          "md5": "4a63a0e0268aa39b1d3bf63972544612"
         }
       ]
     },
@@ -184,11 +184,11 @@
         {
           "name": "camera_android-1.0-profile.aar",
           "url": "camera_android-1.0-profile.aar",
-          "size": 102185,
-          "sha512": "b0d030c8c464c23541798bf4ea213693c69d6a8d1d028b0e3a12705ddfac064ea1cf0759573e256ea1e0a7a7436d367e4af0287a881a4cc367dcca7a298a58ad",
-          "sha256": "27df4239d90d4c81e8ca1c71944ac286100cf99d933408d0a6b55e9f1d617896",
-          "sha1": "e9bcbd54f34aec13195fb371192dc618c3e02171",
-          "md5": "49e7b854c28c7b9a2a47a00133e4d9f2"
+          "size": 102182,
+          "sha512": "3d76cf53a8b6d8801ada80a9476d4cbeb4bdc3e982117731da04df1304b6778f0ca9034f26d719f5154e998a6ed35b505458b505d1392b6133e53c9fc6f26f3b",
+          "sha256": "ebb1d6fd0ac2d8a6a7a7c50ac766603af536580a02badfde8753c15a33271a09",
+          "sha1": "4975ec15a7a5790ccf31e02cc9631a86abf813eb",
+          "md5": "3abdc4e58030ef91e5d7fbbdea909877"
         }
       ]
     },
@@ -228,11 +228,11 @@
         {
           "name": "camera_android-1.0-profile.aar",
           "url": "camera_android-1.0-profile.aar",
-          "size": 102185,
-          "sha512": "b0d030c8c464c23541798bf4ea213693c69d6a8d1d028b0e3a12705ddfac064ea1cf0759573e256ea1e0a7a7436d367e4af0287a881a4cc367dcca7a298a58ad",
-          "sha256": "27df4239d90d4c81e8ca1c71944ac286100cf99d933408d0a6b55e9f1d617896",
-          "sha1": "e9bcbd54f34aec13195fb371192dc618c3e02171",
-          "md5": "49e7b854c28c7b9a2a47a00133e4d9f2"
+          "size": 102182,
+          "sha512": "3d76cf53a8b6d8801ada80a9476d4cbeb4bdc3e982117731da04df1304b6778f0ca9034f26d719f5154e998a6ed35b505458b505d1392b6133e53c9fc6f26f3b",
+          "sha256": "ebb1d6fd0ac2d8a6a7a7c50ac766603af536580a02badfde8753c15a33271a09",
+          "sha1": "4975ec15a7a5790ccf31e02cc9631a86abf813eb",
+          "md5": "3abdc4e58030ef91e5d7fbbdea909877"
         }
       ]
     }

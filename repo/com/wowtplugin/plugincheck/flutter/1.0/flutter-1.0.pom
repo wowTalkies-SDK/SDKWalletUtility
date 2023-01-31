@@ -48,8 +48,8 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.sharedpreferences</groupId>
-      <artifactId>shared_preferences_android</artifactId>
+      <groupId>com.github.droibit.plugins.flutter.customtabs</groupId>
+      <artifactId>flutter_custom_tabs</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
       <optional>true</optional>
@@ -69,13 +69,6 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.firebase.auth</groupId>
-      <artifactId>firebase_auth</artifactId>
-      <version>1.0</version>
-      <scope>compile</scope>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
       <groupId>com.tekartik.sqflite</groupId>
       <artifactId>sqflite</artifactId>
       <version>1.0</version>
@@ -85,6 +78,69 @@
     <dependency>
       <groupId>io.flutter.plugins.firebase.database</groupId>
       <artifactId>firebase_database</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.example.fluttershare</groupId>
+      <artifactId>flutter_share</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.urllauncher</groupId>
+      <artifactId>url_launcher_android</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.jhomlala.better_player.better_player</groupId>
+      <artifactId>better_player</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.it_nomads.fluttersecurestorage</groupId>
+      <artifactId>flutter_secure_storage</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>creativemaybeno.wakelock</groupId>
+      <artifactId>wakelock</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.sharedpreferences</groupId>
+      <artifactId>shared_preferences_android</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.firebase.auth</groupId>
+      <artifactId>firebase_auth</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>dev.fluttercommunity.plus.share</groupId>
+      <artifactId>share_plus</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
       <optional>true</optional>
@@ -104,8 +160,8 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.pathprovider</groupId>
-      <artifactId>path_provider_android</artifactId>
+      <groupId>io.flutter.plugins.videoplayer</groupId>
+      <artifactId>video_player_android</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
       <optional>true</optional>
@@ -113,6 +169,13 @@
     <dependency>
       <groupId>com.wowtalkies.walletutilityplugin</groupId>
       <artifactId>walletutilityplugin</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.bhikadia.receive_intent</groupId>
+      <artifactId>receive_intent</artifactId>
       <version>1.0</version>
       <scope>compile</scope>
       <optional>true</optional>

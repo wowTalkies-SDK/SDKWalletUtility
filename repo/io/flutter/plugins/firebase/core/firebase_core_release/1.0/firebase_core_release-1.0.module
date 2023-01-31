@@ -35,11 +35,11 @@
         {
           "name": "firebase_core_release-1.0.aar",
           "url": "firebase_core_release-1.0.aar",
-          "size": 29898,
-          "sha512": "7d784d81aa10fa4e7bade9fe57f1fc4a1286cb65df2506cece0ee6b5a64f80358913ff59eb4ee756e72b6178e86b774e4942e7a71a92c8ccf6cfbf54ddf6e256",
-          "sha256": "5594d2710bfc0414b74b6e5373386791afde5583814138a8f8c4c211ae0c8648",
-          "sha1": "5092ceabdb199f9aedff17d0ed032872a09647c9",
-          "md5": "6b26cced5b204faa3c82d03a65046733"
+          "size": 29895,
+          "sha512": "d19890bda7f097f633cd430b4d32e62ae3bc6bfb6b68f68da06069fc57c7f95dffcbab5c5692e6abdd8990c01fbe55751fde9f3d8762642054437b27d219f92c",
+          "sha256": "0df14a615d0b7d2841936ef5e9e89ec150c6908f63e090f4fd58b9c0d89c570b",
+          "sha1": "4b2aa4224d3a10c01b5ea865869982f054f850fb",
+          "md5": "964e634203162e79be0fe1857d2f17a0"
         }
       ]
     },
@@ -86,11 +86,11 @@
         {
           "name": "firebase_core_release-1.0.aar",
           "url": "firebase_core_release-1.0.aar",
-          "size": 29898,
-          "sha512": "7d784d81aa10fa4e7bade9fe57f1fc4a1286cb65df2506cece0ee6b5a64f80358913ff59eb4ee756e72b6178e86b774e4942e7a71a92c8ccf6cfbf54ddf6e256",
-          "sha256": "5594d2710bfc0414b74b6e5373386791afde5583814138a8f8c4c211ae0c8648",
-          "sha1": "5092ceabdb199f9aedff17d0ed032872a09647c9",
-          "md5": "6b26cced5b204faa3c82d03a65046733"
+          "size": 29895,
+          "sha512": "d19890bda7f097f633cd430b4d32e62ae3bc6bfb6b68f68da06069fc57c7f95dffcbab5c5692e6abdd8990c01fbe55751fde9f3d8762642054437b27d219f92c",
+          "sha256": "0df14a615d0b7d2841936ef5e9e89ec150c6908f63e090f4fd58b9c0d89c570b",
+          "sha1": "4b2aa4224d3a10c01b5ea865869982f054f850fb",
+          "md5": "964e634203162e79be0fe1857d2f17a0"
         }
       ]
     }

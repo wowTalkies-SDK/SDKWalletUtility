@@ -35,11 +35,11 @@
         {
           "name": "sqflite_profile-1.0.aar",
           "url": "sqflite_profile-1.0.aar",
-          "size": 42023,
-          "sha512": "9b1e629d929bfb3ed96fce4741e64ab0ca1791751f26b70ba4283265b2e584d2321ad63a4a2030723173513b1320b157600428c06317fd25d1b2c58ea3b770c4",
-          "sha256": "77b12ccac695a80bfc81ff739f24228d8da5a7cb3e85112392cd3b645bbeb40b",
-          "sha1": "2fc34ba98c96401d564a173bf57e462ec0218d1d",
-          "md5": "1d798fffaea8fcf7d5f9804879bdbef9"
+          "size": 42020,
+          "sha512": "657d1d0d804a482fbdb37bc622b7a4f97c02a855b7dffb5acc1515cc8062a918767756c0ee041e86b2e70bfa6d04bbb9fe47bfb8bb0d5251959d002734349026",
+          "sha256": "4110d0162a9a45865f3e69c82b761d17163eeae96ce27c4d0da4bfe96f78562f",
+          "sha1": "fbc6d79e6e0fac2780b7cd0048fdf8ac3ff94c8d",
+          "md5": "15f359eb2e644a1bfb3c6ecc766a16aa"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "sqflite_profile-1.0.aar",
           "url": "sqflite_profile-1.0.aar",
-          "size": 42023,
-          "sha512": "9b1e629d929bfb3ed96fce4741e64ab0ca1791751f26b70ba4283265b2e584d2321ad63a4a2030723173513b1320b157600428c06317fd25d1b2c58ea3b770c4",
-          "sha256": "77b12ccac695a80bfc81ff739f24228d8da5a7cb3e85112392cd3b645bbeb40b",
-          "sha1": "2fc34ba98c96401d564a173bf57e462ec0218d1d",
-          "md5": "1d798fffaea8fcf7d5f9804879bdbef9"
+          "size": 42020,
+          "sha512": "657d1d0d804a482fbdb37bc622b7a4f97c02a855b7dffb5acc1515cc8062a918767756c0ee041e86b2e70bfa6d04bbb9fe47bfb8bb0d5251959d002734349026",
+          "sha256": "4110d0162a9a45865f3e69c82b761d17163eeae96ce27c4d0da4bfe96f78562f",
+          "sha1": "fbc6d79e6e0fac2780b7cd0048fdf8ac3ff94c8d",
+          "md5": "15f359eb2e644a1bfb3c6ecc766a16aa"
         }
       ]
     }

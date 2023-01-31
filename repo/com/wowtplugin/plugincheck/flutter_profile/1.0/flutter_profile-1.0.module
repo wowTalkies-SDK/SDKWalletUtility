@@ -52,8 +52,8 @@
           }
         },
         {
-          "group": "io.flutter.plugins.sharedpreferences",
-          "module": "shared_preferences_android",
+          "group": "com.github.droibit.plugins.flutter.customtabs",
+          "module": "flutter_custom_tabs",
           "version": {
             "requires": "1.0"
           }
@@ -73,13 +73,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebase.auth",
-          "module": "firebase_auth",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "com.tekartik.sqflite",
           "module": "sqflite",
           "version": {
@@ -89,6 +82,69 @@
         {
           "group": "io.flutter.plugins.firebase.database",
           "module": "firebase_database",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.fluttershare",
+          "module": "flutter_share",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.jhomlala.better_player.better_player",
+          "module": "better_player",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus",
           "version": {
             "requires": "1.0"
           }
@@ -108,8 +164,8 @@
           }
         },
         {
-          "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android",
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android",
           "version": {
             "requires": "1.0"
           }
@@ -120,17 +176,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "com.bhikadia.receive_intent",
+          "module": "receive_intent",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 89226,
-          "sha512": "eb8b29b8fd73c0d3b63a74d2b5e1ef27ec56254b329c98bf20bc2bd1973f71f155f20fd54713a8462cf07c1a9ef012eee3690133c1f3b00f1e7dd4f923711bde",
-          "sha256": "5d45d44bc38961a261c9a9d3ebf41310c6cd3f1249143563a66215012dc37029",
-          "sha1": "b5e844d1d81c19fcc827c98cc1e0de056c4d4721",
-          "md5": "73731c94bbe0b607a1fe5d0a5421b187"
+          "size": 202578,
+          "sha512": "f8a8ec8309282195242e6f9d1074723e5b852b312eb2f25ba78d9eefc1ec1c3eac3811aae7af71ee4e940c42733a30e02081f947c52da3bb68b077769e1037f6",
+          "sha256": "22b03a7f4dbd2ea14b551d5689219bd9ca4b00b56acae9fbe9bd1c1c84edb076",
+          "sha1": "87debf6470409682cb9d6d02372abf62b5e5402a",
+          "md5": "b6f7d48e3158fbaf561488ce27655194"
         }
       ]
     },
@@ -172,8 +235,8 @@
           }
         },
         {
-          "group": "io.flutter.plugins.sharedpreferences",
-          "module": "shared_preferences_android",
+          "group": "com.github.droibit.plugins.flutter.customtabs",
+          "module": "flutter_custom_tabs",
           "version": {
             "requires": "1.0"
           }
@@ -193,13 +256,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.firebase.auth",
-          "module": "firebase_auth",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "com.tekartik.sqflite",
           "module": "sqflite",
           "version": {
@@ -209,6 +265,69 @@
         {
           "group": "io.flutter.plugins.firebase.database",
           "module": "firebase_database",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.example.fluttershare",
+          "module": "flutter_share",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.urllauncher",
+          "module": "url_launcher_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.pathprovider",
+          "module": "path_provider_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.jhomlala.better_player.better_player",
+          "module": "better_player",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.sharedpreferences",
+          "module": "shared_preferences_android",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus",
           "version": {
             "requires": "1.0"
           }
@@ -228,8 +347,8 @@
           }
         },
         {
-          "group": "io.flutter.plugins.pathprovider",
-          "module": "path_provider_android",
+          "group": "io.flutter.plugins.videoplayer",
+          "module": "video_player_android",
           "version": {
             "requires": "1.0"
           }
@@ -240,17 +359,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "com.bhikadia.receive_intent",
+          "module": "receive_intent",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 89226,
-          "sha512": "eb8b29b8fd73c0d3b63a74d2b5e1ef27ec56254b329c98bf20bc2bd1973f71f155f20fd54713a8462cf07c1a9ef012eee3690133c1f3b00f1e7dd4f923711bde",
-          "sha256": "5d45d44bc38961a261c9a9d3ebf41310c6cd3f1249143563a66215012dc37029",
-          "sha1": "b5e844d1d81c19fcc827c98cc1e0de056c4d4721",
-          "md5": "73731c94bbe0b607a1fe5d0a5421b187"
+          "size": 202578,
+          "sha512": "f8a8ec8309282195242e6f9d1074723e5b852b312eb2f25ba78d9eefc1ec1c3eac3811aae7af71ee4e940c42733a30e02081f947c52da3bb68b077769e1037f6",
+          "sha256": "22b03a7f4dbd2ea14b551d5689219bd9ca4b00b56acae9fbe9bd1c1c84edb076",
+          "sha1": "87debf6470409682cb9d6d02372abf62b5e5402a",
+          "md5": "b6f7d48e3158fbaf561488ce27655194"
         }
       ]
     }
