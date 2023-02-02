@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.fluttershare",
+    "module": "flutter_share_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_share_debug-1.0.aar",
+          "url": "flutter_share_debug-1.0.aar",
+          "size": 6194,
+          "sha512": "964e35115483a17cd0b99d4263f8bc47cdc23ffd6cccca80d27a714dc205f98619219f5a5928220b676825dab99f41d48bda89d897f352bf5daeeb40ac0617a1",
+          "sha256": "03bc4ebdf0a2207a8aa82e74302675b4096007d21da6cde659f45401780e0a50",
+          "sha1": "e72edffadc7351ec7a046e2017fbf716f88f8088",
+          "md5": "326691095f5b41a5efbd46004d85780b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_share_debug-1.0.aar",
+          "url": "flutter_share_debug-1.0.aar",
+          "size": 6194,
+          "sha512": "964e35115483a17cd0b99d4263f8bc47cdc23ffd6cccca80d27a714dc205f98619219f5a5928220b676825dab99f41d48bda89d897f352bf5daeeb40ac0617a1",
+          "sha256": "03bc4ebdf0a2207a8aa82e74302675b4096007d21da6cde659f45401780e0a50",
+          "sha1": "e72edffadc7351ec7a046e2017fbf716f88f8088",
+          "md5": "326691095f5b41a5efbd46004d85780b"
+        }
+      ]
+    }
+  ]
+}

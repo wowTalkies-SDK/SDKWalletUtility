@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.droibit.plugins.flutter.customtabs",
+    "module": "flutter_custom_tabs_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.github.droibit",
+          "module": "customtabslauncher",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_custom_tabs_profile-1.0.aar",
+          "url": "flutter_custom_tabs_profile-1.0.aar",
+          "size": 8049,
+          "sha512": "7b229f9842e03d195e8602cf3263af5bc0800cbf4788787e043a8e5702534462c3610554ff1438884d0783595ebb50a0105165b118d136cc31caeb251c47fd1a",
+          "sha256": "d67a3858bfda32dc30acf224fc9e196e8a4211af1f1bb1f12e8a117ea9b7f523",
+          "sha1": "9fb78b328aee4abe73953da452890a7da983e204",
+          "md5": "a60d3c10b059e20336a6589e5d5540aa"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.github.droibit",
+          "module": "customtabslauncher",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_custom_tabs_profile-1.0.aar",
+          "url": "flutter_custom_tabs_profile-1.0.aar",
+          "size": 8049,
+          "sha512": "7b229f9842e03d195e8602cf3263af5bc0800cbf4788787e043a8e5702534462c3610554ff1438884d0783595ebb50a0105165b118d136cc31caeb251c47fd1a",
+          "sha256": "d67a3858bfda32dc30acf224fc9e196e8a4211af1f1bb1f12e8a117ea9b7f523",
+          "sha1": "9fb78b328aee4abe73953da452890a7da983e204",
+          "md5": "a60d3c10b059e20336a6589e5d5540aa"
+        }
+      ]
+    }
+  ]
+}
