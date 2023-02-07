@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.share",
+    "module": "share_plus_debug",
+    "version": "1.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "share_plus_debug-1.17.aar",
+          "url": "share_plus_debug-1.17.aar",
+          "size": 24192,
+          "sha512": "07fb41cf1ffbe85fc8150a577bef1f7f312f3b2639b33752b2b9387dbc15f85ab37998dbca2cc7dafb8c41d14ed5bd2a0b384ceaa051fb363817b81c8d3248a5",
+          "sha256": "35774732743b9205c9f3558ad36ddd5b8c2306a7f9608f9ddf9e1169ab83d6ae",
+          "sha1": "b0f78187f7bd596f9ae05731f6850764f0628c50",
+          "md5": "27592d58473897e74cdaccb405229045"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "share_plus_debug-1.17.aar",
+          "url": "share_plus_debug-1.17.aar",
+          "size": 24192,
+          "sha512": "07fb41cf1ffbe85fc8150a577bef1f7f312f3b2639b33752b2b9387dbc15f85ab37998dbca2cc7dafb8c41d14ed5bd2a0b384ceaa051fb363817b81c8d3248a5",
+          "sha256": "35774732743b9205c9f3558ad36ddd5b8c2306a7f9608f9ddf9e1169ab83d6ae",
+          "sha1": "b0f78187f7bd596f9ae05731f6850764f0628c50",
+          "md5": "27592d58473897e74cdaccb405229045"
+        }
+      ]
+    }
+  ]
+}
