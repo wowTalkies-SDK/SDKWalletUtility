@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -27,14 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.6.10"
+            "requires": "1.7.10"
           }
         }
       ],
@@ -42,11 +42,11 @@
         {
           "name": "walletutilityplugin_profile-1.0.aar",
           "url": "walletutilityplugin_profile-1.0.aar",
-          "size": 8764,
-          "sha512": "3d3981f6ecb57d69789c7e2886367ecd089aed094dc7e408f4209535f269cba4adb6e252332eb18a85eca739ce2340948fbdeeba55249f03e45fd3a00379fd27",
-          "sha256": "f855df40609641bd40b5418218064157de1143cce152c5b90d6e19f3e4f3112a",
-          "sha1": "4e8a03e1c7851d3130ccf149919dad78ff388ed2",
-          "md5": "93e78a7b5fdd77687ec68782bdaa2f16"
+          "size": 8803,
+          "sha512": "368a07b708c600a021830a5a7b03f0d4c33883793cb257f9c20dedf7efbac422f3c86d1e0e3138950cf313eb41c53d7f224123dde4aa666024ffd0811c9e2a42",
+          "sha256": "249dd8cb0c174f8ce31ed40f9b4788a4c69c1f32150fa549c581f6a9133a6a6e",
+          "sha1": "f436f17f6098ddb5d9730e5e89b22e50c70ee28b",
+          "md5": "cbe89c3a07c8009f588c8dc05222469e"
         }
       ]
     },
@@ -63,14 +63,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.6.10"
+            "requires": "1.7.10"
           }
         },
         {
@@ -142,17 +142,24 @@
           "version": {
             "requires": "1.0"
           }
+        },
+        {
+          "group": "com.bhikadia.receive_intent",
+          "module": "receive_intent",
+          "version": {
+            "requires": "1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "walletutilityplugin_profile-1.0.aar",
           "url": "walletutilityplugin_profile-1.0.aar",
-          "size": 8764,
-          "sha512": "3d3981f6ecb57d69789c7e2886367ecd089aed094dc7e408f4209535f269cba4adb6e252332eb18a85eca739ce2340948fbdeeba55249f03e45fd3a00379fd27",
-          "sha256": "f855df40609641bd40b5418218064157de1143cce152c5b90d6e19f3e4f3112a",
-          "sha1": "4e8a03e1c7851d3130ccf149919dad78ff388ed2",
-          "md5": "93e78a7b5fdd77687ec68782bdaa2f16"
+          "size": 8803,
+          "sha512": "368a07b708c600a021830a5a7b03f0d4c33883793cb257f9c20dedf7efbac422f3c86d1e0e3138950cf313eb41c53d7f224123dde4aa666024ffd0811c9e2a42",
+          "sha256": "249dd8cb0c174f8ce31ed40f9b4788a4c69c1f32150fa549c581f6a9133a6a6e",
+          "sha1": "f436f17f6098ddb5d9730e5e89b22e50c70ee28b",
+          "md5": "cbe89c3a07c8009f588c8dc05222469e"
         }
       ]
     }

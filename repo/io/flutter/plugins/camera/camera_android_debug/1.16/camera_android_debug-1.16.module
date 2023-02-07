@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.camera",
+    "module": "camera_android_debug",
+    "version": "1.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_debug-1.16.aar",
+          "url": "camera_android_debug-1.16.aar",
+          "size": 107993,
+          "sha512": "36f4f86bd55230bfab583dd4d0adfbca17516088820c01ccaaa04cca653e6de61fd20ad7608e1d43c7cfdd07dc84fd9af711e1bbb27c3a7e3ac8fb5e0a6b4361",
+          "sha256": "c7136c6703916d64dad76fbf4b12bbc7db27a468ad12339bdbf190a024cf9d2c",
+          "sha1": "53771b9c49dc798eb4116aa57b54b0e730f6dde9",
+          "md5": "58ab41bbdc5630d319bd65ebecf5739f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle",
+          "version": {
+            "requires": "1.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_debug-1.16.aar",
+          "url": "camera_android_debug-1.16.aar",
+          "size": 107993,
+          "sha512": "36f4f86bd55230bfab583dd4d0adfbca17516088820c01ccaaa04cca653e6de61fd20ad7608e1d43c7cfdd07dc84fd9af711e1bbb27c3a7e3ac8fb5e0a6b4361",
+          "sha256": "c7136c6703916d64dad76fbf4b12bbc7db27a468ad12339bdbf190a024cf9d2c",
+          "sha1": "53771b9c49dc798eb4116aa57b54b0e730f6dde9",
+          "md5": "58ab41bbdc5630d319bd65ebecf5739f"
+        }
+      ]
+    }
+  ]
+}

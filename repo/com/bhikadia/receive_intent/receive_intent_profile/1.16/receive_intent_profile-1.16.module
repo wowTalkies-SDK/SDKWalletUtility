@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bhikadia.receive_intent",
+    "module": "receive_intent_profile",
+    "version": "1.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent_profile-1.16.aar",
+          "url": "receive_intent_profile-1.16.aar",
+          "size": 12901,
+          "sha512": "6bcbcafb37075a907e012e3a3fd0e059f2acb698eff444165ed21cdf3a38aef09afeddfe94e66492e89b0b068dadd7044c0ba99199054fba6fab0369b2f17cf1",
+          "sha256": "98e373ce5baa13f18bea6590ce1688df23c16b220ed030b17e1a9e909e27a3c2",
+          "sha1": "43b3caf1fe4fa11ed00ff41eefd154411cd28cdd",
+          "md5": "53ab992f322930ea7e513907e7a835ee"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent_profile-1.16.aar",
+          "url": "receive_intent_profile-1.16.aar",
+          "size": 12901,
+          "sha512": "6bcbcafb37075a907e012e3a3fd0e059f2acb698eff444165ed21cdf3a38aef09afeddfe94e66492e89b0b068dadd7044c0ba99199054fba6fab0369b2f17cf1",
+          "sha256": "98e373ce5baa13f18bea6590ce1688df23c16b220ed030b17e1a9e909e27a3c2",
+          "sha1": "43b3caf1fe4fa11ed00ff41eefd154411cd28cdd",
+          "md5": "53ab992f322930ea7e513907e7a835ee"
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.5"
     }
   },
   "variants": [
@@ -28,7 +28,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         }
       ],
@@ -36,11 +36,11 @@
         {
           "name": "camera_android-1.0-debug.aar",
           "url": "camera_android-1.0-debug.aar",
-          "size": 107803,
-          "sha512": "b47f42909db62dfecbf4a5aef84080dbed4536184acac19e036afb7d48b12dee5e652afcbe8b7c9b4e8d8143360e438a3b528284cda3f5b960dbb4697b635ba0",
-          "sha256": "4845f2c10fa2b2f1cd3c39bb2e81b132645417c23d3a01af1c3bce035116db19",
-          "sha1": "84d2e756205fc6f7f98f40e751a2cd8b7bab553d",
-          "md5": "6beb9a5b4e361ead6bce5d85e490307e"
+          "size": 107993,
+          "sha512": "36f4f86bd55230bfab583dd4d0adfbca17516088820c01ccaaa04cca653e6de61fd20ad7608e1d43c7cfdd07dc84fd9af711e1bbb27c3a7e3ac8fb5e0a6b4361",
+          "sha256": "c7136c6703916d64dad76fbf4b12bbc7db27a468ad12339bdbf190a024cf9d2c",
+          "sha1": "53771b9c49dc798eb4116aa57b54b0e730f6dde9",
+          "md5": "58ab41bbdc5630d319bd65ebecf5739f"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_debug",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         },
         {
@@ -80,11 +80,11 @@
         {
           "name": "camera_android-1.0-debug.aar",
           "url": "camera_android-1.0-debug.aar",
-          "size": 107803,
-          "sha512": "b47f42909db62dfecbf4a5aef84080dbed4536184acac19e036afb7d48b12dee5e652afcbe8b7c9b4e8d8143360e438a3b528284cda3f5b960dbb4697b635ba0",
-          "sha256": "4845f2c10fa2b2f1cd3c39bb2e81b132645417c23d3a01af1c3bce035116db19",
-          "sha1": "84d2e756205fc6f7f98f40e751a2cd8b7bab553d",
-          "md5": "6beb9a5b4e361ead6bce5d85e490307e"
+          "size": 107993,
+          "sha512": "36f4f86bd55230bfab583dd4d0adfbca17516088820c01ccaaa04cca653e6de61fd20ad7608e1d43c7cfdd07dc84fd9af711e1bbb27c3a7e3ac8fb5e0a6b4361",
+          "sha256": "c7136c6703916d64dad76fbf4b12bbc7db27a468ad12339bdbf190a024cf9d2c",
+          "sha1": "53771b9c49dc798eb4116aa57b54b0e730f6dde9",
+          "md5": "58ab41bbdc5630d319bd65ebecf5739f"
         }
       ]
     },
@@ -102,7 +102,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         }
       ],
@@ -110,11 +110,11 @@
         {
           "name": "camera_android-1.0-release.aar",
           "url": "camera_android-1.0-release.aar",
-          "size": 102176,
-          "sha512": "ea6d9944ed89bd6a5e6ac89642aacf7e3ed6489d9338139a1944858e11e5626c2e8f02fff3dfe4e4fc3a57fda5c15987d47a46549cc49aad29cf352b464fde2a",
-          "sha256": "8ed0bd9f8e79eacbde2ddfd21d519034f9575fba2f584bd5e109c7cceb438d50",
-          "sha1": "2beb102180d1fc9a021caa8520c4feb3f2957b59",
-          "md5": "4a63a0e0268aa39b1d3bf63972544612"
+          "size": 102363,
+          "sha512": "27af1394300f5245d6556be7e7e605cc3ff750359c87c92ce48e1f3a24c0b021a45bc673e9277f1ac950aedf93fae67cd43ac8cf15dba61b01d1c47dfceaa568",
+          "sha256": "3c728fbb3fd11e1bf318ef55bcd0932898cf534f89c2126677214abbc31daf40",
+          "sha1": "7b09df3b334c24b4df2691f59eb4c56157d6313f",
+          "md5": "fdf219e163f3d594eaa62a9fedd66ac7"
         }
       ]
     },
@@ -132,7 +132,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         },
         {
@@ -154,11 +154,11 @@
         {
           "name": "camera_android-1.0-release.aar",
           "url": "camera_android-1.0-release.aar",
-          "size": 102176,
-          "sha512": "ea6d9944ed89bd6a5e6ac89642aacf7e3ed6489d9338139a1944858e11e5626c2e8f02fff3dfe4e4fc3a57fda5c15987d47a46549cc49aad29cf352b464fde2a",
-          "sha256": "8ed0bd9f8e79eacbde2ddfd21d519034f9575fba2f584bd5e109c7cceb438d50",
-          "sha1": "2beb102180d1fc9a021caa8520c4feb3f2957b59",
-          "md5": "4a63a0e0268aa39b1d3bf63972544612"
+          "size": 102363,
+          "sha512": "27af1394300f5245d6556be7e7e605cc3ff750359c87c92ce48e1f3a24c0b021a45bc673e9277f1ac950aedf93fae67cd43ac8cf15dba61b01d1c47dfceaa568",
+          "sha256": "3c728fbb3fd11e1bf318ef55bcd0932898cf534f89c2126677214abbc31daf40",
+          "sha1": "7b09df3b334c24b4df2691f59eb4c56157d6313f",
+          "md5": "fdf219e163f3d594eaa62a9fedd66ac7"
         }
       ]
     },
@@ -176,7 +176,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         }
       ],
@@ -184,11 +184,11 @@
         {
           "name": "camera_android-1.0-profile.aar",
           "url": "camera_android-1.0-profile.aar",
-          "size": 102182,
-          "sha512": "3d76cf53a8b6d8801ada80a9476d4cbeb4bdc3e982117731da04df1304b6778f0ca9034f26d719f5154e998a6ed35b505458b505d1392b6133e53c9fc6f26f3b",
-          "sha256": "ebb1d6fd0ac2d8a6a7a7c50ac766603af536580a02badfde8753c15a33271a09",
-          "sha1": "4975ec15a7a5790ccf31e02cc9631a86abf813eb",
-          "md5": "3abdc4e58030ef91e5d7fbbdea909877"
+          "size": 102362,
+          "sha512": "cba9594d6de6e9d0eee6f0a16be7c2d459b663c0c3fa819c3f579d776d4890fa9f920b2a6defb914ff787224fad61e02c70e18978e1783f34e873e3b245844ac",
+          "sha256": "e0bc3f6a0d16f007fb6b03993675b1c359d0035584b27b7b22a5c6a1b1a19fad",
+          "sha1": "c66ead0796239d01952e3879a71d5afb41786a56",
+          "md5": "814a343357f98a10ce010d592b9033b7"
         }
       ]
     },
@@ -206,7 +206,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_profile",
           "version": {
-            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+            "requires": "1.0.0-3950c6140a3f1cb295364b0446627bd3a1736915"
           }
         },
         {
@@ -228,11 +228,11 @@
         {
           "name": "camera_android-1.0-profile.aar",
           "url": "camera_android-1.0-profile.aar",
-          "size": 102182,
-          "sha512": "3d76cf53a8b6d8801ada80a9476d4cbeb4bdc3e982117731da04df1304b6778f0ca9034f26d719f5154e998a6ed35b505458b505d1392b6133e53c9fc6f26f3b",
-          "sha256": "ebb1d6fd0ac2d8a6a7a7c50ac766603af536580a02badfde8753c15a33271a09",
-          "sha1": "4975ec15a7a5790ccf31e02cc9631a86abf813eb",
-          "md5": "3abdc4e58030ef91e5d7fbbdea909877"
+          "size": 102362,
+          "sha512": "cba9594d6de6e9d0eee6f0a16be7c2d459b663c0c3fa819c3f579d776d4890fa9f920b2a6defb914ff787224fad61e02c70e18978e1783f34e873e3b245844ac",
+          "sha256": "e0bc3f6a0d16f007fb6b03993675b1c359d0035584b27b7b22a5c6a1b1a19fad",
+          "sha1": "c66ead0796239d01952e3879a71d5afb41786a56",
+          "md5": "814a343357f98a10ce010d592b9033b7"
         }
       ]
     }
