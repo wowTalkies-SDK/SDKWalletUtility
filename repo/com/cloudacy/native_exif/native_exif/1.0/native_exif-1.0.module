@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.cloudacy.native_exif",
+    "module": "native_exif",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-debug.aar",
+          "url": "native_exif-1.0-debug.aar",
+          "size": 8207,
+          "sha512": "81adaa4b18de6f6ecc9917809b4cc6e9b629b5be2267f99589f2eeac79161e228e25b447dc5a6f298db77f024bf6ea29bfdc22f782374a4aa25811534a8edfdf",
+          "sha256": "91062af73924f0075424c840dd814188633cecfd789ae75982d7a1e72453b415",
+          "sha1": "1331c3ceaa2f175ef5ac0532228cc401f2fb8676",
+          "md5": "b05dd5d7d3868d8cf217a5a330196e04"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-debug.aar",
+          "url": "native_exif-1.0-debug.aar",
+          "size": 8207,
+          "sha512": "81adaa4b18de6f6ecc9917809b4cc6e9b629b5be2267f99589f2eeac79161e228e25b447dc5a6f298db77f024bf6ea29bfdc22f782374a4aa25811534a8edfdf",
+          "sha256": "91062af73924f0075424c840dd814188633cecfd789ae75982d7a1e72453b415",
+          "sha1": "1331c3ceaa2f175ef5ac0532228cc401f2fb8676",
+          "md5": "b05dd5d7d3868d8cf217a5a330196e04"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-release.aar",
+          "url": "native_exif-1.0-release.aar",
+          "size": 7921,
+          "sha512": "837abc05d0549ddc5695907d91f7f0ad1476dec0e0f312cc89ff272d28f1b08483c9518039e805d34f06f3fcf1f4d5028250fab91c5c54ffb6a41264b2109871",
+          "sha256": "85f53c8343eccbc05e0307ba50aba55379b03a05ae8a056ab3c0e291a50416d8",
+          "sha1": "b39f0a0bbd52151202028c8e9d3342b9e0b6af3e",
+          "md5": "275bfba75c91365f3c3d9f2788f9c31b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-release.aar",
+          "url": "native_exif-1.0-release.aar",
+          "size": 7921,
+          "sha512": "837abc05d0549ddc5695907d91f7f0ad1476dec0e0f312cc89ff272d28f1b08483c9518039e805d34f06f3fcf1f4d5028250fab91c5c54ffb6a41264b2109871",
+          "sha256": "85f53c8343eccbc05e0307ba50aba55379b03a05ae8a056ab3c0e291a50416d8",
+          "sha1": "b39f0a0bbd52151202028c8e9d3342b9e0b6af3e",
+          "md5": "275bfba75c91365f3c3d9f2788f9c31b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-profile.aar",
+          "url": "native_exif-1.0-profile.aar",
+          "size": 7923,
+          "sha512": "f1a6532bed777a2cfdaaaf7e2680579822d586d74b413f74050b23862019c4fcdff2ba633377dd3316fd321a04fef7789c058ee00f7a2d8e7e739def08664bd4",
+          "sha256": "f43a48734c368f71cf3f6cd0d1fafe05f5f483e31c63c77fac72674320d56575",
+          "sha1": "dbf93b584625f98d175d9b37503f7c931055fe6c",
+          "md5": "5c61fb7fa5a48949b118c7ec4a9cc321"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_exif-1.0-profile.aar",
+          "url": "native_exif-1.0-profile.aar",
+          "size": 7923,
+          "sha512": "f1a6532bed777a2cfdaaaf7e2680579822d586d74b413f74050b23862019c4fcdff2ba633377dd3316fd321a04fef7789c058ee00f7a2d8e7e739def08664bd4",
+          "sha256": "f43a48734c368f71cf3f6cd0d1fafe05f5f483e31c63c77fac72674320d56575",
+          "sha1": "dbf93b584625f98d175d9b37503f7c931055fe6c",
+          "md5": "5c61fb7fa5a48949b118c7ec4a9cc321"
+        }
+      ]
+    }
+  ]
+}

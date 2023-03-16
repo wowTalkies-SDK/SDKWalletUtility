@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "creativemaybeno.wakelock",
+    "module": "wakelock_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_release-1.0.aar",
+          "url": "wakelock_release-1.0.aar",
+          "size": 11336,
+          "sha512": "96a9a876d99e1bc4b1f265fa51d9b28be4744776a4349b405f12ca34b46d685e61aff06960e7daa89da95c8485a7a7ba7513af9fbfcd346c6240dfecf94e8736",
+          "sha256": "f961c2b571d37de82c1275cedc8fb0afbf2d713412da20ec44b75494815c8d0a",
+          "sha1": "3134fdb0a2378a0fd5d346a2ade727e92af56469",
+          "md5": "f639ebbb9755181a43324e1c4f6bb99d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_release-1.0.aar",
+          "url": "wakelock_release-1.0.aar",
+          "size": 11336,
+          "sha512": "96a9a876d99e1bc4b1f265fa51d9b28be4744776a4349b405f12ca34b46d685e61aff06960e7daa89da95c8485a7a7ba7513af9fbfcd346c6240dfecf94e8736",
+          "sha256": "f961c2b571d37de82c1275cedc8fb0afbf2d713412da20ec44b75494815c8d0a",
+          "sha1": "3134fdb0a2378a0fd5d346a2ade727e92af56469",
+          "md5": "f639ebbb9755181a43324e1c4f6bb99d"
+        }
+      ]
+    }
+  ]
+}

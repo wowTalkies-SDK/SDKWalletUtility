@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.FlutterToast",
+    "module": "fluttertoast",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-debug.aar",
+          "url": "fluttertoast-1.0-debug.aar",
+          "size": 10591,
+          "sha512": "6ef8f7b06ab01c526f59f3407b44eefd10f1dfbdfe2bde4d2a6ec30307c5119977a52d83e04fcc156308649f5f9e7c49b2753b46f412a5caa5268ecbac54d9c8",
+          "sha256": "cad990be327b15a57c39b056b576d2bc76e2c8ce1ab3d00ab0688ddd6e12edc8",
+          "sha1": "f9d60351b15b7d894a7867453be5ae645ccaf2db",
+          "md5": "f83b3790d1c946509324e69e69394bb5"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-debug.aar",
+          "url": "fluttertoast-1.0-debug.aar",
+          "size": 10591,
+          "sha512": "6ef8f7b06ab01c526f59f3407b44eefd10f1dfbdfe2bde4d2a6ec30307c5119977a52d83e04fcc156308649f5f9e7c49b2753b46f412a5caa5268ecbac54d9c8",
+          "sha256": "cad990be327b15a57c39b056b576d2bc76e2c8ce1ab3d00ab0688ddd6e12edc8",
+          "sha1": "f9d60351b15b7d894a7867453be5ae645ccaf2db",
+          "md5": "f83b3790d1c946509324e69e69394bb5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-release.aar",
+          "url": "fluttertoast-1.0-release.aar",
+          "size": 10293,
+          "sha512": "99967a32cc2df177bd93ae632e7880dee6e1bc86e8b7bd3928a82f85e537d70084379b1196aaffbfd9c3318644db143cdbfbdbcf771c6cc71a560c989364e61e",
+          "sha256": "74aff3c9c7e09a87a2841927edb94724bffc6647af8af1be982b430170212168",
+          "sha1": "a1cfea579850f07c5e3b3c6de998f9c146f4870c",
+          "md5": "df6ee1890e09a081378e260b9215bced"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-release.aar",
+          "url": "fluttertoast-1.0-release.aar",
+          "size": 10293,
+          "sha512": "99967a32cc2df177bd93ae632e7880dee6e1bc86e8b7bd3928a82f85e537d70084379b1196aaffbfd9c3318644db143cdbfbdbcf771c6cc71a560c989364e61e",
+          "sha256": "74aff3c9c7e09a87a2841927edb94724bffc6647af8af1be982b430170212168",
+          "sha1": "a1cfea579850f07c5e3b3c6de998f9c146f4870c",
+          "md5": "df6ee1890e09a081378e260b9215bced"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-profile.aar",
+          "url": "fluttertoast-1.0-profile.aar",
+          "size": 10300,
+          "sha512": "0e6fbd9574e6db3647fa3cff08faf87ccb2afc151b4d1dcc8af88d9ab05424fbfaa2c5ed2e8a3f62cdca135293ef3b216d06b740601002d16a0dbc44b7ed9adf",
+          "sha256": "cb2c0f47e2750f5e738a59c76ad5a4079fa2cdd2793354a7ae4a3739ba5bcd12",
+          "sha1": "2be4b792dd98aee9d7adb61513eb6bb59c9af912",
+          "md5": "39f769b14ae2752a5d5e584d9a6c7b1b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluttertoast-1.0-profile.aar",
+          "url": "fluttertoast-1.0-profile.aar",
+          "size": 10300,
+          "sha512": "0e6fbd9574e6db3647fa3cff08faf87ccb2afc151b4d1dcc8af88d9ab05424fbfaa2c5ed2e8a3f62cdca135293ef3b216d06b740601002d16a0dbc44b7ed9adf",
+          "sha256": "cb2c0f47e2750f5e738a59c76ad5a4079fa2cdd2793354a7ae4a3739ba5bcd12",
+          "sha1": "2be4b792dd98aee9d7adb61513eb6bb59c9af912",
+          "md5": "39f769b14ae2752a5d5e584d9a6c7b1b"
+        }
+      ]
+    }
+  ]
+}

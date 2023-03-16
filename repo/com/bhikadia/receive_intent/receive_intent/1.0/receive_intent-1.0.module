@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.bhikadia.receive_intent",
+    "module": "receive_intent",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-debug.aar",
+          "url": "receive_intent-1.0-debug.aar",
+          "size": 13491,
+          "sha512": "38d9763c2ef30447de35f658686263ec33241a7866a98e0f82dba7443021f757519fd65cd09f2f048eda9ca18013a64708562e47af2c60d17b870aa07b5cc0b6",
+          "sha256": "a28f641cf54c304e9cd285ba435357b0122cd3cc60d3d32118edceea9dfdb755",
+          "sha1": "1eedb11ab7768c267e942076467435da5b0d541b",
+          "md5": "79582aea355fbd382cfd7bf01bc0ff4d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-debug.aar",
+          "url": "receive_intent-1.0-debug.aar",
+          "size": 13491,
+          "sha512": "38d9763c2ef30447de35f658686263ec33241a7866a98e0f82dba7443021f757519fd65cd09f2f048eda9ca18013a64708562e47af2c60d17b870aa07b5cc0b6",
+          "sha256": "a28f641cf54c304e9cd285ba435357b0122cd3cc60d3d32118edceea9dfdb755",
+          "sha1": "1eedb11ab7768c267e942076467435da5b0d541b",
+          "md5": "79582aea355fbd382cfd7bf01bc0ff4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-release.aar",
+          "url": "receive_intent-1.0-release.aar",
+          "size": 12870,
+          "sha512": "70e58f9e8ce857de9cf3fe9f556b74266cbb2d0bedb3cd8992cb2fff3e0df6a5adb161c2837d20805151f6ddc08df18dee8baf1ceb7ab3586bd53e2e6c77e78f",
+          "sha256": "19b280a3e0f88b1edda63006d8ddec3fab24631d0167e7ac1d50563f7a39081f",
+          "sha1": "bb53d4134bb6ab26b4ecd8c7113a1c604792ec90",
+          "md5": "86a8ebb82a70f565cc4d1ad7112f3f1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-release.aar",
+          "url": "receive_intent-1.0-release.aar",
+          "size": 12870,
+          "sha512": "70e58f9e8ce857de9cf3fe9f556b74266cbb2d0bedb3cd8992cb2fff3e0df6a5adb161c2837d20805151f6ddc08df18dee8baf1ceb7ab3586bd53e2e6c77e78f",
+          "sha256": "19b280a3e0f88b1edda63006d8ddec3fab24631d0167e7ac1d50563f7a39081f",
+          "sha1": "bb53d4134bb6ab26b4ecd8c7113a1c604792ec90",
+          "md5": "86a8ebb82a70f565cc4d1ad7112f3f1d"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-profile.aar",
+          "url": "receive_intent-1.0-profile.aar",
+          "size": 12872,
+          "sha512": "427024414d2e3b1e92057633e51bc86fc3adcf5b17bac4e2b4475170f9cc5577ee8b564d1ed1c7b7b95fb79d8208b2e8a0d2a7fe439f42a313369a6649df61c8",
+          "sha256": "f5c03c6a0c40ed0bc76e4c11bc8cdb680344b1b311f08b0e07c2c3ec0c33a657",
+          "sha1": "e833af42219f4b973dd812275b6385747a1c2a26",
+          "md5": "df15cface1a1f5806ef5036efd86d975"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-8f2221fbef28b478debb78dd233f5250b220ca99"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "receive_intent-1.0-profile.aar",
+          "url": "receive_intent-1.0-profile.aar",
+          "size": 12872,
+          "sha512": "427024414d2e3b1e92057633e51bc86fc3adcf5b17bac4e2b4475170f9cc5577ee8b564d1ed1c7b7b95fb79d8208b2e8a0d2a7fe439f42a313369a6649df61c8",
+          "sha256": "f5c03c6a0c40ed0bc76e4c11bc8cdb680344b1b311f08b0e07c2c3ec0c33a657",
+          "sha1": "e833af42219f4b973dd812275b6385747a1c2a26",
+          "md5": "df15cface1a1f5806ef5036efd86d975"
+        }
+      ]
+    }
+  ]
+}
