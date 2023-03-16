@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.adaptant.labs.flutter_windowmanager",
+    "module": "flutter_windowmanager",
+    "version": "1.38",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-debug.aar",
+          "url": "flutter_windowmanager-1.38-debug.aar",
+          "size": 5800,
+          "sha512": "2cd2c15c691d998b2406e53c9dd9ed8759ee9319851ec4744f67a79a3631359f87b6b6004cd40297661b45eec46b32deab239f0eb6d534aa4a978de695aa8959",
+          "sha256": "5b89ca29506e05644d2a0746f851b9aaedc784dc5bc4b937ec22680b07256b94",
+          "sha1": "f6a7ebbc234b789f9096c535cbb8c176e5b482de",
+          "md5": "18271c70114620dfff6102716466a097"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-debug.aar",
+          "url": "flutter_windowmanager-1.38-debug.aar",
+          "size": 5800,
+          "sha512": "2cd2c15c691d998b2406e53c9dd9ed8759ee9319851ec4744f67a79a3631359f87b6b6004cd40297661b45eec46b32deab239f0eb6d534aa4a978de695aa8959",
+          "sha256": "5b89ca29506e05644d2a0746f851b9aaedc784dc5bc4b937ec22680b07256b94",
+          "sha1": "f6a7ebbc234b789f9096c535cbb8c176e5b482de",
+          "md5": "18271c70114620dfff6102716466a097"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-release.aar",
+          "url": "flutter_windowmanager-1.38-release.aar",
+          "size": 5544,
+          "sha512": "4f23f1898df4c50c1cf5821c5e41d11a8c4187c8f2738ee798ed138bc14ab7d510da51f2e9c4bbcb124e1b699b2f7270abee75451e0e21ef9efa9c7d0c7488f3",
+          "sha256": "190f0d9bd18e994e431231d97c56de856702481b676d507a11bcbd7a97084936",
+          "sha1": "3af1222d6394934574a207d42d14835c035b6898",
+          "md5": "da7ec08eff5e9811c9a257b687591b3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-release.aar",
+          "url": "flutter_windowmanager-1.38-release.aar",
+          "size": 5544,
+          "sha512": "4f23f1898df4c50c1cf5821c5e41d11a8c4187c8f2738ee798ed138bc14ab7d510da51f2e9c4bbcb124e1b699b2f7270abee75451e0e21ef9efa9c7d0c7488f3",
+          "sha256": "190f0d9bd18e994e431231d97c56de856702481b676d507a11bcbd7a97084936",
+          "sha1": "3af1222d6394934574a207d42d14835c035b6898",
+          "md5": "da7ec08eff5e9811c9a257b687591b3a"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-profile.aar",
+          "url": "flutter_windowmanager-1.38-profile.aar",
+          "size": 5544,
+          "sha512": "cbd5abf6dab5acc5355dcfc39cf89798cd60ff4c670f51cb7c130233befc58e3ad62f11376d53d20a61864d65c010aff8487f3a3fccf020d44f5fb151047a1ae",
+          "sha256": "efc1fa79536090e1b0b5a19792d561fa849838c6a9b9b43921978f2de054c5f2",
+          "sha1": "db45ba9156d537fc6da53ed7b5ccf28452fb1132",
+          "md5": "290cf02c11a82b3ce8b2fcd6d758c885"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantAllRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "profile",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager-1.38-profile.aar",
+          "url": "flutter_windowmanager-1.38-profile.aar",
+          "size": 5544,
+          "sha512": "cbd5abf6dab5acc5355dcfc39cf89798cd60ff4c670f51cb7c130233befc58e3ad62f11376d53d20a61864d65c010aff8487f3a3fccf020d44f5fb151047a1ae",
+          "sha256": "efc1fa79536090e1b0b5a19792d561fa849838c6a9b9b43921978f2de054c5f2",
+          "sha1": "db45ba9156d537fc6da53ed7b5ccf28452fb1132",
+          "md5": "290cf02c11a82b3ce8b2fcd6d758c885"
+        }
+      ]
+    }
+  ]
+}

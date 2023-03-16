@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jhomlala.better_player.better_player",
+    "module": "better_player_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "better_player_debug-1.0.aar",
+          "url": "better_player_debug-1.0.aar",
+          "size": 71016,
+          "sha512": "25993f028b8e3b104b74372d954e76f2ff76add039d6b744be08ded2f498667d90e3847d670b17e800cbd996f5ebc843c3c403ad8f6d654d3c1ae5698405fc6c",
+          "sha256": "bcdd15b6eab97729959fe0e59e52e02247337431dcd4133c991e06d8b8cdef20",
+          "sha1": "779c732368a574c949d0a41b1f7e7eb9da0d0aaf",
+          "md5": "28c92ff97327f217b8ed5e304d129a92"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-dash",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-smoothstreaming",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-mediasession",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.4.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.4.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.4.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "creativemaybeno.wakelock",
+          "module": "wakelock",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "better_player_debug-1.0.aar",
+          "url": "better_player_debug-1.0.aar",
+          "size": 71016,
+          "sha512": "25993f028b8e3b104b74372d954e76f2ff76add039d6b744be08ded2f498667d90e3847d670b17e800cbd996f5ebc843c3c403ad8f6d654d3c1ae5698405fc6c",
+          "sha256": "bcdd15b6eab97729959fe0e59e52e02247337431dcd4133c991e06d8b8cdef20",
+          "sha1": "779c732368a574c949d0a41b1f7e7eb9da0d0aaf",
+          "md5": "28c92ff97327f217b8ed5e304d129a92"
+        }
+      ]
+    }
+  ]
+}
