@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.justsoft.video_thumbnail",
+    "module": "video_thumbnail_release",
+    "version": "1.48",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video_thumbnail_release-1.48.aar",
+          "url": "video_thumbnail_release-1.48.aar",
+          "size": 10002,
+          "sha512": "58751953c7f99dc862337f7332c52a5401245225532e9706a8ca30be6ad4c6c744afced80f8d7d4e8d3c7c51b556c8fd9751dd089e827825c1d4d7761b4d986b",
+          "sha256": "924ccd8ef09048e1d6acc4485917aecee204a0d9d3889a59186a660f5a5b7793",
+          "sha1": "3bb19468ceb0e9177fecd7f1b49ca2917123b183",
+          "md5": "714f3908b00cd07e7163fa8ad0bf704d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "video_thumbnail_release-1.48.aar",
+          "url": "video_thumbnail_release-1.48.aar",
+          "size": 10002,
+          "sha512": "58751953c7f99dc862337f7332c52a5401245225532e9706a8ca30be6ad4c6c744afced80f8d7d4e8d3c7c51b556c8fd9751dd089e827825c1d4d7761b4d986b",
+          "sha256": "924ccd8ef09048e1d6acc4485917aecee204a0d9d3889a59186a660f5a5b7793",
+          "sha1": "3bb19468ceb0e9177fecd7f1b49ca2917123b183",
+          "md5": "714f3908b00cd07e7163fa8ad0bf704d"
+        }
+      ]
+    }
+  ]
+}

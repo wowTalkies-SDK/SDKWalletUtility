@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pathprovider",
+    "module": "path_provider_android_release",
+    "version": "1.47",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-1.47.aar",
+          "url": "path_provider_android_release-1.47.aar",
+          "size": 12435,
+          "sha512": "24953281a683d158c02fc153c63a6ef58934066e20d6afa223d464e854fc32dbfd3a05f9dd2d5494b1e9f9295fba9efb64d84426a5f86fb9a114caea2f45e758",
+          "sha256": "7be04cc1b9e35fbf4246532a7d8a5e8a71a9812ff6a1882294dfd0cea5bf5ce9",
+          "sha1": "a95ee492e65d4c9afc710c2262f2ff7cdd5b0bc3",
+          "md5": "09550158d744b677038ca5151dabd481"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-1.47.aar",
+          "url": "path_provider_android_release-1.47.aar",
+          "size": 12435,
+          "sha512": "24953281a683d158c02fc153c63a6ef58934066e20d6afa223d464e854fc32dbfd3a05f9dd2d5494b1e9f9295fba9efb64d84426a5f86fb9a114caea2f45e758",
+          "sha256": "7be04cc1b9e35fbf4246532a7d8a5e8a71a9812ff6a1882294dfd0cea5bf5ce9",
+          "sha1": "a95ee492e65d4c9afc710c2262f2ff7cdd5b0bc3",
+          "md5": "09550158d744b677038ca5151dabd481"
+        }
+      ]
+    }
+  ]
+}

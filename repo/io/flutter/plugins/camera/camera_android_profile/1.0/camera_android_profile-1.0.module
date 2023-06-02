@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.camera",
+    "module": "camera_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_profile-1.0.aar",
+          "url": "camera_android_profile-1.0.aar",
+          "size": 116764,
+          "sha512": "92d970dbe1927a9efac877fd9d4cbe803546728c0df8a74a5d42bb78b46ec26954ade8f6f81416d10993f2b9bdb9fd053abb4ec50b9743079e8026a8e1f0f0e2",
+          "sha256": "2c573dc83410b381c4cd1ed0622bc0741405891502dbcaeed897da56b0e4af2a",
+          "sha1": "ce4250966a66ecec4acb840fbab28474eeecc238",
+          "md5": "d27b9a99329aaadeb5b8128bdd97f5fe"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_profile-1.0.aar",
+          "url": "camera_android_profile-1.0.aar",
+          "size": 116764,
+          "sha512": "92d970dbe1927a9efac877fd9d4cbe803546728c0df8a74a5d42bb78b46ec26954ade8f6f81416d10993f2b9bdb9fd053abb4ec50b9743079e8026a8e1f0f0e2",
+          "sha256": "2c573dc83410b381c4cd1ed0622bc0741405891502dbcaeed897da56b0e4af2a",
+          "sha1": "ce4250966a66ecec4acb840fbab28474eeecc238",
+          "md5": "d27b9a99329aaadeb5b8128bdd97f5fe"
+        }
+      ]
+    }
+  ]
+}
