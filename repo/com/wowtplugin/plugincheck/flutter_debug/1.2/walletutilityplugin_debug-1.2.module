@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wowtalkies.walletutilityplugin",
+    "module": "walletutilityplugin_debug",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin_debug-1.2.aar",
+          "url": "walletutilityplugin_debug-1.2.aar",
+          "size": 12758158,
+          "sha512": "b093e558663405ed3a378b0e7d587a4e71df4638ed6753f7d9c2adfbec96b667df62c30185c54b4345d80a3f7210b3cbfc5c8ee52a4213f7009a108a061e656d",
+          "sha256": "e7cd4a0b16f6ece9caadf7bec414469577fbca8181bf0d4c0dc754704e16b775",
+          "sha1": "7edb429d4c204878034b45fbcab67884480164ae",
+          "md5": "809e56feb279f18d5b62a404f3c65500"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin_debug-1.2.aar",
+          "url": "walletutilityplugin_debug-1.2.aar",
+          "size": 12758158,
+          "sha512": "b093e558663405ed3a378b0e7d587a4e71df4638ed6753f7d9c2adfbec96b667df62c30185c54b4345d80a3f7210b3cbfc5c8ee52a4213f7009a108a061e656d",
+          "sha256": "e7cd4a0b16f6ece9caadf7bec414469577fbca8181bf0d4c0dc754704e16b775",
+          "sha1": "7edb429d4c204878034b45fbcab67884480164ae",
+          "md5": "809e56feb279f18d5b62a404f3c65500"
+        }
+      ]
+    }
+  ]
+}
