@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.adaptant.labs.flutter_windowmanager",
+    "module": "flutter_windowmanager_debug",
+    "version": "1.49",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_debug-1.49.aar",
+          "url": "flutter_windowmanager_debug-1.49.aar",
+          "size": 5813,
+          "sha512": "dc64c5f70592722c8228ca7ade2fec250dabbf66d40b7403c552f69bbed6375a8ebf1b299cfb7e949d54f191adf22676130ac6e6ac645001b9e5b61c2cee07e3",
+          "sha256": "f344698db9d7be20622467a6f66efdcb3a55a98314fc28fedd9f548546f42412",
+          "sha1": "30ff0087eb6ab9fcccdadb6b6a5ce58dc2139eaa",
+          "md5": "8c9f6306fb552b15b7b8bfb1010b4c7b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_windowmanager_debug-1.49.aar",
+          "url": "flutter_windowmanager_debug-1.49.aar",
+          "size": 5813,
+          "sha512": "dc64c5f70592722c8228ca7ade2fec250dabbf66d40b7403c552f69bbed6375a8ebf1b299cfb7e949d54f191adf22676130ac6e6ac645001b9e5b61c2cee07e3",
+          "sha256": "f344698db9d7be20622467a6f66efdcb3a55a98314fc28fedd9f548546f42412",
+          "sha1": "30ff0087eb6ab9fcccdadb6b6a5ce58dc2139eaa",
+          "md5": "8c9f6306fb552b15b7b8bfb1010b4c7b"
+        }
+      ]
+    }
+  ]
+}

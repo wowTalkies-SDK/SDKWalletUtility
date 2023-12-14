@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.localauth",
+    "module": "local_auth_android_release",
+    "version": "1.49",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "local_auth_android_release-1.49.aar",
+          "url": "local_auth_android_release-1.49.aar",
+          "size": 42261,
+          "sha512": "a7755934638a7910e5bf3202716d03e8fc08a1c5805fe4b1bb3d4bac9623634cb62f630ea57814fcddebcadbda1f52b5e3b0ceb82a5cc55273d22ee6d31db357",
+          "sha256": "2b3af94ebc8fc39b796e7cad401baa4648452d6706488247e4e57bdaf6857842",
+          "sha1": "eb2a97ff8143c2cc491e61fe4e0b37a5c3376a07",
+          "md5": "9f4969fcb442c5801dc166695f13b07a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.10"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_release",
+          "version": {
+            "requires": "1.49"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "local_auth_android_release-1.49.aar",
+          "url": "local_auth_android_release-1.49.aar",
+          "size": 42261,
+          "sha512": "a7755934638a7910e5bf3202716d03e8fc08a1c5805fe4b1bb3d4bac9623634cb62f630ea57814fcddebcadbda1f52b5e3b0ceb82a5cc55273d22ee6d31db357",
+          "sha256": "2b3af94ebc8fc39b796e7cad401baa4648452d6706488247e4e57bdaf6857842",
+          "sha1": "eb2a97ff8143c2cc491e61fe4e0b37a5c3376a07",
+          "md5": "9f4969fcb442c5801dc166695f13b07a"
+        }
+      ]
+    }
+  ]
+}
