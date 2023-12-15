@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wowtalkies.walletutilityplugin",
+    "module": "walletutilityplugin_debug",
+    "version": "1.52",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin_debug-1.52.aar",
+          "url": "walletutilityplugin_debug-1.52.aar",
+          "size": 19408,
+          "sha512": "c59b5db1700c7b4c393994c58d0c70abb16d38f06acbdf3530df40a54e96698b9d9a5d91d26ab254a3790acdf70cc991db789953198450eab97d7a94a548547d",
+          "sha256": "50d6ceebbbbee33956957d9f4fa8f8527be410e2fdcd7eecef3f7d8c013a37bc",
+          "sha1": "a9bccb5b2ec51adfc442ec3403a335c523d27bb2",
+          "md5": "6d6b8be6e9c61caced0165d797d71225"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.example.FlutterToast",
+          "module": "fluttertoast_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.mixpanel.mixpanel_flutter",
+          "module": "mixpanel_flutter_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.jhomlala.better_player.better_player",
+          "module": "better_player_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.auth",
+          "module": "firebase_auth_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.database",
+          "module": "firebase_database_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.sidlatau.flutteremailsender",
+          "module": "flutter_email_sender_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "xyz.justsoft.video_thumbnail",
+          "module": "video_thumbnail_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.cloudacy.native_exif",
+          "module": "native_exif_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.github.droibit.plugins.flutter.customtabs",
+          "module": "flutter_custom_tabs_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.share",
+          "module": "share_plus_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebasemessaging",
+          "module": "firebase_messaging_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.dexterous.flutterlocalnotifications",
+          "module": "flutter_local_notifications_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.it_nomads.fluttersecurestorage",
+          "module": "flutter_secure_storage_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.analytics",
+          "module": "firebase_analytics_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "com.bhikadia.receive_intent",
+          "module": "receive_intent_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        },
+        {
+          "group": "io.adaptant.labs.flutter_windowmanager",
+          "module": "flutter_windowmanager_debug",
+          "version": {
+            "requires": "1.52"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "walletutilityplugin_debug-1.52.aar",
+          "url": "walletutilityplugin_debug-1.52.aar",
+          "size": 19408,
+          "sha512": "c59b5db1700c7b4c393994c58d0c70abb16d38f06acbdf3530df40a54e96698b9d9a5d91d26ab254a3790acdf70cc991db789953198450eab97d7a94a548547d",
+          "sha256": "50d6ceebbbbee33956957d9f4fa8f8527be410e2fdcd7eecef3f7d8c013a37bc",
+          "sha1": "a9bccb5b2ec51adfc442ec3403a335c523d27bb2",
+          "md5": "6d6b8be6e9c61caced0165d797d71225"
+        }
+      ]
+    }
+  ]
+}

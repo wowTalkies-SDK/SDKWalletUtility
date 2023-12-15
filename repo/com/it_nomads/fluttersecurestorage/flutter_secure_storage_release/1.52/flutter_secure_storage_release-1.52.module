@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.it_nomads.fluttersecurestorage",
+    "module": "flutter_secure_storage_release",
+    "version": "1.52",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_release-1.52.aar",
+          "url": "flutter_secure_storage_release-1.52.aar",
+          "size": 26482,
+          "sha512": "906c8664b01b397b6deaecbda2ffa54a7e925484747b95ef152a4080a88a372c5185621694877c512123bb3061bd261085b235163ef970b54ae1383292093507",
+          "sha256": "d7b4f5c4e30bdd34519853aba698602a8e8933aca1b0f3c3966bed0f7ed05d21",
+          "sha1": "36a1383c672c3ac13770153fc7358ab90154d37a",
+          "md5": "91dbaa07d034cf4261ea4a5e426221a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.1.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_secure_storage_release-1.52.aar",
+          "url": "flutter_secure_storage_release-1.52.aar",
+          "size": 26482,
+          "sha512": "906c8664b01b397b6deaecbda2ffa54a7e925484747b95ef152a4080a88a372c5185621694877c512123bb3061bd261085b235163ef970b54ae1383292093507",
+          "sha256": "d7b4f5c4e30bdd34519853aba698602a8e8933aca1b0f3c3966bed0f7ed05d21",
+          "sha1": "36a1383c672c3ac13770153fc7358ab90154d37a",
+          "md5": "91dbaa07d034cf4261ea4a5e426221a1"
+        }
+      ]
+    }
+  ]
+}

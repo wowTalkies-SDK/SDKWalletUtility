@@ -175,12 +175,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.flutter.plugins.connectivity</groupId>
-      <artifactId>connectivity_plus_debug</artifactId>
-      <version>1.51</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>xyz.justsoft.video_thumbnail</groupId>
       <artifactId>video_thumbnail_debug</artifactId>
       <version>1.51</version>

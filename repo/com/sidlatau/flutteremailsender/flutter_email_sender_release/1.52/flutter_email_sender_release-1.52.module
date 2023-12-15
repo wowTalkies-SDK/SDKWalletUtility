@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sidlatau.flutteremailsender",
+    "module": "flutter_email_sender_release",
+    "version": "1.52",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_email_sender_release-1.52.aar",
+          "url": "flutter_email_sender_release-1.52.aar",
+          "size": 21610,
+          "sha512": "56e9ef3629c8cad1d6cbe236a35e9413e59222fd83be41f73dc002ba78ea14454a7dc1a8d927ca57f60c7e3405a196fcc47ca82c5c27a1bf75d10413759082d7",
+          "sha256": "01085adfd87f0527f49b462bf94f63fb2f73fcbb2fc73fd258dc9fb6535532ab",
+          "sha1": "cb269e6d3358b336532de5908f8fa09c539e8791",
+          "md5": "3b0f57a3d21b0460123819c75be212b6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-ec975089acb540fc60752606a3d3ba809dd1528b"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_email_sender_release-1.52.aar",
+          "url": "flutter_email_sender_release-1.52.aar",
+          "size": 21610,
+          "sha512": "56e9ef3629c8cad1d6cbe236a35e9413e59222fd83be41f73dc002ba78ea14454a7dc1a8d927ca57f60c7e3405a196fcc47ca82c5c27a1bf75d10413759082d7",
+          "sha256": "01085adfd87f0527f49b462bf94f63fb2f73fcbb2fc73fd258dc9fb6535532ab",
+          "sha1": "cb269e6d3358b336532de5908f8fa09c539e8791",
+          "md5": "3b0f57a3d21b0460123819c75be212b6"
+        }
+      ]
+    }
+  ]
+}

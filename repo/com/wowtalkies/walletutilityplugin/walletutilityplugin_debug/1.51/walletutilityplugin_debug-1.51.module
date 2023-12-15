@@ -144,13 +144,6 @@
           }
         },
         {
-          "group": "io.flutter.plugins.connectivity",
-          "module": "connectivity_plus_debug",
-          "version": {
-            "requires": "1.51"
-          }
-        },
-        {
           "group": "dev.fluttercommunity.plus.share",
           "module": "share_plus_debug",
           "version": {
